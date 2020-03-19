@@ -1,3 +1,116 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://podcast-muc.de"
+languageCode = "de-DE"
+title = "Podcast Meetup München"
+
+theme = "bootstrap4-blog"
+
+# number of posts to show on home/category/tag pages (Default: 10)
+paginate = 5
+
+# number of words to use for summary on home/category/tag pages (Default: 70)
+summaryLength = 50
+
+# optionally override the site's footer with custom copyright text
+# copyright = "Except where otherwise noted, content on this site is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/)."
+
+#googleAnalytics = "UA-123-45"
+
+#disqusShortname = "XYW"
+
+[permalinks]
+  posts = "/:year/:month/:day/:title/"
+  page = "/:slug/"
+
+# menu 
+
+[[menu.navbar]]
+    name = "Podcaster:innen"
+    url = "/podcasterinnen"
+    weight = 5
+[[menu.navbar]]
+    name = "Willkommen"
+    url = "/willkommen"
+    weight = 1
+[[menu.navbar]]
+    name = "Meetups"
+    url = "/meetups"
+    weight = 5
+[[menu.navbar]]
+    name = "Podcastpat:innen"
+    url = "/podcastpatinnen"
+    weight = 10
+[[menu.navbar]]
+    name = "Ressourcen"
+    url = "/ressourcen"
+    weight = 15
+
+[[menu.sidebar]]
+  name = "Link 1"
+  url = "https://example.com"
+
+[[menu.sidebar]]
+  name = "Link 2"
+  url = "https://example.org"
+
+# Theme variables
+#
+[params]
+  # Site author
+  author = "Podcast Meetup München"
+
+  # Description/subtitle for homepage (can be Markdown)
+  description = "Für Hörer:innen und Podcaster:innen und alle, die an Podcasts interessiert sind. "
+
+  # Show header (default: true)
+  #header_visible = true
+
+  # Format dates with Go's time formatting
+  date_format = "02 January 2006"
+
+  # verification string for Google Webmaster Tools
+  #google_verify_meta = "BAi57DROASu4b2mkVNA_EyUsobfA7Mq8BmSg7Rn-Zp9"
+
+  # Optionally display a message about the site's use of cookies, which may be
+  # required for your site in the European Union. Set the parameter below to a
+  # page where the user can get more information about cookies, either on your
+  # site or externally, for example:
+  #cookie_consent_info_url = "/cookie-information/"
+  #cookie_consent_info_url = "http://cookiesandyou.com"
+
+  # show sharing icons on pages/posts (default: true)
+  sharingicons = false
+
+  # Display post summaries instead of content in list templates (default: true)
+  #truncate = true
+
+  # Disable the use of sub-resource integrity on CSS/JS assets (default: false)
+  # Useful if you're using a CDN or other host where you can't control cache headers
+  #disable_sri = false
+
+  [params.sidebar]
+    # Optional about block for sidebar (can be Markdown)
+    about = "A simple Hugo theme based on the [Bootstrap v4 blog example](http://v4-alpha.getbootstrap.com/examples/blog/)."
+
+    # How many posts to show on the sidebar (Default: 5)
+    #num_recent_posts = 2
+
+  [params.social]
+    # Optional, used for attribution in Twitter cards (ideally not a person
+    # for example: nytimes, flickr, NatGeo, etc).
+    # See: https://dev.twitter.com/cards/types/summary-large-image
+    twitter = "podcast_muc"
+
+# Default content language for Hugo 0.17's multilingual support (default is "en")
+# See: https://github.com/spf13/hugo/blob/master/docs/content/content/multilingual.md
+#DefaultContentLanguage = "de"
+
+
+# Languages to render
+
+#[languages.de]
+#	title = ""
+#[languages.en]
+#	title = ""
+
+
+# vim: ts=2 sw=2 et
