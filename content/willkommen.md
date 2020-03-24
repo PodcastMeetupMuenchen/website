@@ -1,6 +1,8 @@
 ---
 title: "Willkommen"
 date: "2020-03-19"
+menu: "main"
+weight: 1
 ---
 Du bist Podcaster:in oder am Thema Podcasting interessiert?
 
