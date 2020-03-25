@@ -5,4 +5,4 @@ menu: "footer"
 weight: 20
 ---
 
-kontakt [ät] podcast-muc.de
+{{% contact/list %}}

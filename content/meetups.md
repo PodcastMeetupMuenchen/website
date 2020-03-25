@@ -9,7 +9,5 @@ Wir treffen uns regelmäßig irgendwo in München.
 Zeit und Ort machen wir gemeinsam aus. 
 Die nächsten Termine erfährst du hier:
 
-* [Twitter](https://twitter.com/podcast_muc)
-* Mailingliste 
-* [Slack](https://podcast-muc.slack.com/)
-* [Sendegate](https://sendegate.de/t/uebersicht-von-podcast-meetups/54)
+{{% contact/list %}}
+* oder hier auf der Webseite in der Kategorie [Termine](/categories/termine/).
