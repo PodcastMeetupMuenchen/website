@@ -1,0 +1,24 @@
+{{ if isset .Page.Params "podcasts" }} 
+    {{ $.Scratch.Set "counter" 0 }}
+    
+    {{ range .Page.Params.podcasts }}
+        {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}
+        {{ $.Scratch.Set "podcastDataIndexed" (printf "%s%d" "podcastData" ($.Scratch.Get "counter")) }}
+        <span>{{ .Site.Params.highlightColor }}
+        <script>
+        window[{{$.Scratch.Get "podcastDataIndexed"}}]={"title":"{{ .title }}","subtitle":"{{ .subtitle }}","description":"{{ .description }}","cover":"{{ .coverURL }}","feeds":[{{ range .feeds }} {"type":"{{ .type }}","format":"{{ .format }}","url":"{{ .feedURL }}","directory-url-itunes":"{{ .itunesURL }}"} {{ end }} ]}
+        </script>
+        <script 
+             class="podlove-subscribe-button"
+             src="https://cdn.podlove.org/subscribe-button/javascripts/app.js"
+             data-language="de"
+             data-size="big"
+             data-json-data={{$.Scratch.Get "podcastDataIndexed"}}
+             data-color="{{ $.Site.Params.highlightColor }}"
+             data-format="cover"
+             data-style="filled">
+        </script>
+        <noscript><a href="feedURL">Subscribe to feed</a></noscript>
+        </span>
+    {{ end }}	
+{{ end }}
