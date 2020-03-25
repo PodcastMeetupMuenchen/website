@@ -7,8 +7,8 @@ disqusShortname = "" # Enable Disqus comments by entering your Disqus shortname
 googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 [Author] # Used in authorbox
-  name = "John Doe"
-  bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
+  name = "Orga"
+  bio = "Die Organisator:innen kümmern sich darum, dass alles organisiert ist. Sie freuen sich immer auf Unterstützung durch weitere Organisator:innen."
   avatar = "img/avatar.png"
 
 [Params]
@@ -22,7 +22,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   toc = false # Enable Table of Contents
   post_navigation = false # Show post navigation at bottom of pages if true
   post_meta = ["date", "categories", "translations"] # Order of post meta information
-  mainSections = ["blog", "podcasterinnen"] # Specify section pages to show on home page and the "Recent articles" widget
+  mainSections = ["blog", "podcasterinnen", "termine"] # Specify section pages to show on home page and the "Recent articles" widget
   dateformat = "02.01.2006" # Change the format of dates
   mathjax = true # Enable MathJax
   mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
@@ -52,7 +52,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   github = "PodcastMeetupMuenchen"
   #gitlab = "username"
   #bitbucket = "username"
-  #email = "kontakt@podcast-muc.de"
+  email = "kontakt[at]podcast-muc.de"
 
 # Custom social links
 #[[Params.widgets.social.custom]]
