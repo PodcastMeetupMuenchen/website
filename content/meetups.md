@@ -3,6 +3,9 @@ title: "Meetups"
 date: "2020-03-19"
 menu: "main"
 weight: 15
+categories:
+    - Meetups
+
 ---
 Wir treffen uns regelmäßig irgendwo in München. 
 Üblicherweise einmal im Monat. 

@@ -9,8 +9,8 @@ tags:
     - Podcastpatin
     - Astronomie
 categories:
-    - Hosts
     - Podcasterin
+    - Podcaster:innen
 podcasts:
     - title: "Titel deines Podcasts"
       subtitle: "Untertitel deines Podcasts"

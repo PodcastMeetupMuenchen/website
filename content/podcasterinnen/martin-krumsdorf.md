@@ -5,8 +5,8 @@ tags:
     - Ehrenamt
     - Podcastlabel
 categories:
-    - Hosts
     - Podcaster
+    - Podcaster:innen
 podcasts:
     - title: "7 Gute Gründe"
       subtitle: ""
