@@ -1,5 +1,5 @@
 ---
-title: "Terminfindung Podcast Meetup im April 2020"
+title: "Terminfindung: April 2020"
 date: 2020-03-22T21:40:37+01:00
 categories:
     - Meetups
