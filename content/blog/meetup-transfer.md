@@ -19,4 +19,4 @@ Ziel soll es sein, dass wir uns regelmäßig treffen, über Podcasts und Podcast
 Was sind eure Ideen für die Weiterentwicklung des Podcast Meetups München?
 Wir freuen uns auf eure Rückmeldungen, Anregungen und euer Engagement. 
 
-Die Übergabe zum [Anhören](/audio/pcmuc_2020-03-17_rc1.mp3).
+Die Übergabe gibt es auch zum [Anhören](/audio/pcmuc_2020-03-17_rc1.mp3).
