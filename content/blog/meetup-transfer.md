@@ -18,3 +18,5 @@ Außerdem haben wir uns die Domain [podcast-muc.de](https://podcast-muc.de/) ges
 Ziel soll es sein, dass wir uns regelmäßig treffen, über Podcasts und Podcasting austauschen, uns gegenseitig helfen und voneinander lernen.
 Was sind eure Ideen für die Weiterentwicklung des Podcast Meetups München?
 Wir freuen uns auf eure Rückmeldungen, Anregungen und euer Engagement. 
+
+Die Übergabe zum [Anhören](/audio/pcmuc_2020-03-17_rc1.mp3).
