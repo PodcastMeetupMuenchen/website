@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://podcast-muc.de"
 title = "Podcast Meetup München"
 languageCode = "de-de"
 paginate = "10" # Number of posts per page
