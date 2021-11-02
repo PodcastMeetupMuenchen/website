@@ -6,6 +6,9 @@ theme = "mainroad"
 disqusShortname = "" # Enable Disqus comments by entering your Disqus shortname
 googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
+[markup.goldmark.renderer]
+unsafe= true
+
 [Author] # Used in authorbox
   name = "Orga"
   bio = "Die Organisator:innen kümmern sich darum, dass alles organisiert ist. Sie freuen sich immer auf Unterstützung durch weitere Organisator:innen."
