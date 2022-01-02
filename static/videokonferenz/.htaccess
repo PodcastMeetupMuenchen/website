@@ -1,0 +1,2 @@
+RewriteEngine On
+Redirect 302 / https://bbb.verschwoer.haus/b/podcast-muc
