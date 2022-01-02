@@ -12,5 +12,6 @@ Wir treffen uns regelmäßig irgendwo in München.
 Zeit und Ort machen wir gemeinsam aus. 
 Die nächsten Termine erfährst du hier:
 
+* auf der Webseite in der Kategorie [Termine](/categories/termine/) oder 
+* indem du den Kalender abonnierst [podcast-muc.de/termine/index.ics](https://podcast-muc.de/termine/index.ics) oder
 {{% contact/list %}}
-* oder hier auf der Webseite in der Kategorie [Termine](/categories/termine/).
