@@ -6,6 +6,11 @@ theme = "mainroad"
 disqusShortname = "" # Enable Disqus comments by entering your Disqus shortname
 googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
+[outputs]
+  #home = ['HTML', 'RSS']
+  #page = ['HTML']
+  section = ['HTML', 'Calendar', 'RSS']
+
 [markup.goldmark.renderer]
 unsafe= true
 
@@ -31,8 +36,14 @@ unsafe= true
   mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
   mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
   highlightColor = "#0098d4" # Override highlight color
-  customCSS = ["css/custom.css"] # Include custom CSS files
-  customJS = ["js/custom.js"] # Include custom JS files
+  #customCSS = ["css/custom.css"] # Include custom CSS files
+  #customJS = ["js/custom.js"] # Include custom JS files
+
+[Params.calendar]
+  # https://www.jvt.me/posts/2019/05/22/ical-events-hugo/
+  name = "Podcast Meetup München"
+  email = "termine@podcast-muc.de"
+
 
 [Params.sidebar]
   home = "right" # Configure layout for home page
