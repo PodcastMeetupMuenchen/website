@@ -1,2 +1,2 @@
 RewriteEngine On
-Redirect 302 / https://meet.jit.si/moderated/56719ad1a8bbdeb12470544482ab324f3d42b01aebdd6bb1d83c0217946ed7a6
+Redirect 302 /videokonferenz https://meet.jit.si/moderated/56719ad1a8bbdeb12470544482ab324f3d42b01aebdd6bb1d83c0217946ed7a6
