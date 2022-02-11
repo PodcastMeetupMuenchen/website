@@ -3,6 +3,9 @@ VERSION:2.0
 PRODID:-//{{ .Site.BaseURL }}//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+X-WR-CALNAME:Podcast MUC
+X-WR-TIMEZONE:Europe/Berlin
+X-WR-CALDESC:https://podcast-muc.de
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
 X-LIC-LOCATION:Europe/Berlin
