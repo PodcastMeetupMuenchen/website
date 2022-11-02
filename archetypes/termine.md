@@ -11,8 +11,8 @@ start: "{{ .Date }}-15T19:00:00+02:00"
 end: "{{ .Date }}-15T21:00:00+02:00"
 location: "https://podcast-muc.de/videokonferenz"
 ---
-Das nächste Podcast Meetup München findet am {{Wochentag}},
-__15. {{ .Date }}__
+Das nächste Podcast Meetup München findet am {{ time.Format "Monday" "2022-11-15" }},
+__15. {{ time.Format "January 2000" .Date }}__
 um
 __19:00 Uhr__
 statt.

@@ -4,7 +4,7 @@ Für die Webseite verwenden wir den statischen Webseitengenerator [Hugo](https:/
 
 ## Inhalte bearbeiten
 
-Checke dieses Repository lokal aus, um Änderungen vorzunehmen oder Inhalte hinzuzufügen. 
+Checke dieses Repository lokal aus, um Änderungen vorzunehmen oder Inhalte hinzuzufügen.
 
 ~~~
 # per HTTPS
@@ -16,6 +16,9 @@ git submodule update
 git clone git@github.com:podcast-muc/website.git
 git submodule init
 git submodule update
+
+# lokale Vorschau per
+hugo server
 ~~~
 
 Erstelle einen neuen Branch für deine Bearbeitung bzw. neuen Inhalte. Wenn du fertig bist und deine Änderungen gepusht hast, erstelle bitte einen [Pull Request](https://github.com/podcast-muc/website/pulls).
