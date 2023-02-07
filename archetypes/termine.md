@@ -1,18 +1,18 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+date: {{ dateFormat "2026-01-02" .Date }}
 time: 19:00
 
 categories:
     - Meetups
     - Termine
 
-start: "{{ .Date }}-15T19:00:00+02:00"
-end: "{{ .Date }}-15T21:00:00+02:00"
+start: "{{ dateFormat "2026-01" .Date }}-15T19:00:00+02:00"
+end: "{{ dateFormat "2026-01" .Date }}-15T21:00:00+02:00"
 location: "https://podcast-muc.de/videokonferenz"
 ---
 Das nächste Podcast Meetup München findet am {{ time.Format "Monday" "2022-11-15" }},
-__15. {{ time.Format "January 2000" .Date }}__
+__15. {{ time.Format "January 2023" .Date }}__
 um
 __19:00 Uhr__
 statt.
