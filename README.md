@@ -62,3 +62,11 @@ Man braucht nur die URL des Videos und muss noch `/oembed` anhängen.
 ~~~
 {{< mediacccde "https://media.ccc.de/v/podcast-muc-4130-podcast-atti-tune-musik/oembed" >}}
 ~~~
+
+## Twittermenschen
+
+@Abendgruen @Abspannpodcast @alexrudat @AndreasRaum @angbor3D @ankegroener @annikrubens @audioglueck @channelcast_de @CleanElectrCast @DaFisch @DasMorgenradio @diezugfunker @el_loko74 @FehlfarbenPod @friemel_backe @FRUEFpodcast @ganzbeitrost @GNetzer 
+
+@Haltungstrainer @insohr @isedcast @KBMusicmc @kidz_pod @klingnerin @kluepfel @lautgutpodcast @marcelstuht @martinobly @meet_judith @meyerhawranek @Munifornication @ondibox @philipp_hellwig @RessourcenFM @rolawin @saerdnaer @sandrastaub_de
+
+@Sendegarten_de @soundofmunich @stiefkind @Theofel @theTJ23 @TJstudioDE @toesiroe @tofrenz @Traumblau @umwomukum @wiesnmichi @zeitweise 
